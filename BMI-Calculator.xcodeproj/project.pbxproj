@@ -9,23 +9,25 @@
 /* Begin PBXBuildFile section */
 		EBC2C155257E8AE400B79F39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC2C154257E8AE400B79F39 /* AppDelegate.swift */; };
 		EBC2C157257E8AE400B79F39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC2C156257E8AE400B79F39 /* SceneDelegate.swift */; };
-		EBC2C159257E8AE400B79F39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC2C158257E8AE400B79F39 /* ViewController.swift */; };
+		EBC2C159257E8AE400B79F39 /* PersonalInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC2C158257E8AE400B79F39 /* PersonalInfoViewController.swift */; };
 		EBC2C15C257E8AE400B79F39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBC2C15A257E8AE400B79F39 /* Main.storyboard */; };
 		EBC2C15F257E8AE400B79F39 /* BMI_Calculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EBC2C15D257E8AE400B79F39 /* BMI_Calculator.xcdatamodeld */; };
 		EBC2C161257E8AE800B79F39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBC2C160257E8AE800B79F39 /* Assets.xcassets */; };
 		EBC2C164257E8AE800B79F39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBC2C162257E8AE800B79F39 /* LaunchScreen.storyboard */; };
+		EBC2C16C257EEB8400B79F39 /* TrackingBMIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC2C16B257EEB8400B79F39 /* TrackingBMIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EBC2C151257E8AE400B79F39 /* BMI-Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BMI-Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBC2C154257E8AE400B79F39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBC2C156257E8AE400B79F39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EBC2C158257E8AE400B79F39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EBC2C158257E8AE400B79F39 /* PersonalInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInfoViewController.swift; sourceTree = "<group>"; };
 		EBC2C15B257E8AE400B79F39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EBC2C15E257E8AE400B79F39 /* BMI_Calculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BMI_Calculator.xcdatamodel; sourceTree = "<group>"; };
 		EBC2C160257E8AE800B79F39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBC2C163257E8AE800B79F39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBC2C165257E8AE800B79F39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBC2C16B257EEB8400B79F39 /* TrackingBMIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingBMIViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +62,13 @@
 			children = (
 				EBC2C154257E8AE400B79F39 /* AppDelegate.swift */,
 				EBC2C156257E8AE400B79F39 /* SceneDelegate.swift */,
-				EBC2C158257E8AE400B79F39 /* ViewController.swift */,
+				EBC2C158257E8AE400B79F39 /* PersonalInfoViewController.swift */,
 				EBC2C15A257E8AE400B79F39 /* Main.storyboard */,
 				EBC2C160257E8AE800B79F39 /* Assets.xcassets */,
 				EBC2C162257E8AE800B79F39 /* LaunchScreen.storyboard */,
 				EBC2C165257E8AE800B79F39 /* Info.plist */,
 				EBC2C15D257E8AE400B79F39 /* BMI_Calculator.xcdatamodeld */,
+				EBC2C16B257EEB8400B79F39 /* TrackingBMIViewController.swift */,
 			);
 			path = "BMI-Calculator";
 			sourceTree = "<group>";
@@ -142,7 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBC2C15F257E8AE400B79F39 /* BMI_Calculator.xcdatamodeld in Sources */,
-				EBC2C159257E8AE400B79F39 /* ViewController.swift in Sources */,
+				EBC2C159257E8AE400B79F39 /* PersonalInfoViewController.swift in Sources */,
+				EBC2C16C257EEB8400B79F39 /* TrackingBMIViewController.swift in Sources */,
 				EBC2C155257E8AE400B79F39 /* AppDelegate.swift in Sources */,
 				EBC2C157257E8AE400B79F39 /* SceneDelegate.swift in Sources */,
 			);
