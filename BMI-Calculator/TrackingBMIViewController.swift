@@ -3,6 +3,8 @@
 //  BMI-Calculator
 //
 //  Created by Raj Kumar Shahu on 2020-12-07.
+//  StudentID: 300783746
+//  @Desc: This is a simple iOS BMI tracker app. The app includes at least two screens, the first screen (the Personal Information Screen). A second screen (the BMI Tracking Screen) will track the user’s weight, BMI and the date it was entered or updated.
 //  Copyright © 2020 Centennial College. All rights reserved.
 //
 

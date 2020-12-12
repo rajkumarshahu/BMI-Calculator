@@ -1,8 +1,10 @@
 //
-//  ViewController.swift
+//  PersonalInfoViewController.swift
 //  BMI-Calculator
 //
 //  Created by Raj Kumar Shahu on 2020-12-07.
+//  StudentID: 300783746
+//  @Desc: This is a simple iOS BMI tracker app. The app includes at least two screens, the first screen (the Personal Information Screen). A second screen (the BMI Tracking Screen) will track the user’s weight, BMI and the date it was entered or updated.
 //  Copyright © 2020 Centennial College. All rights reserved.
 //
 
@@ -23,9 +25,6 @@ class PersonalInfoViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //        nameTV.text = "Raj Kumar"
-        //        genderTV.text = "Male"
-        //        ageTV.text = "44"
         heightTv.placeholder = "Height in cm"
         weightTv.placeholder = "Weight in kg"
     }
@@ -51,7 +50,6 @@ class PersonalInfoViewController: UIViewController {
             message(bmi: bmi)
             
         } else {
-            
             let bmi = Double(Float(weightTv.text!)! * 730 / (Float(heightTv.text!)! * Float(heightTv.text!)!))
             bmiResultLabel?.text = String(format: "Your BMI is: %.2f", bmi)
             message(bmi: bmi)
@@ -76,7 +74,6 @@ class PersonalInfoViewController: UIViewController {
             
             // Creating BMI
             if let name =  nameTV.text {
-                
                 bmi.name = name
                 bmi.updatedDate = formatter.string(from: updatedDate!)
                 bmi.age = ageTV.text
@@ -92,9 +89,21 @@ class PersonalInfoViewController: UIViewController {
         }     
     }
     
+    
+    @IBAction func resetButtonTapped(_ sender: Any) {
+        
+        nameTV.text = ""
+        ageTV.text = ""
+        genderTV.text = ""
+        heightTv.text = ""
+        weightTv.text = ""
+        bmiResultLabel.text = ""
+        messageLabel.text = ""
+    }
+    
     func message(bmi: Double) {
         if bmi <= 16 {
-            messageLabel.text = "Severe Thinness"
+            messageLabel.text = "Severe Thinness "
         } else if bmi > 16 && bmi <= 17 {
             messageLabel.text = "Moderate Thinness"
         } else if bmi > 17 && bmi <= 18.5 {
